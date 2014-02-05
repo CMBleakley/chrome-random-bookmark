@@ -1,4 +1,4 @@
-chrome-random-bookmark
+![random](/extension/icon38.png "random") chrome-random-bookmark
 ======================
 
  * installation instructions
