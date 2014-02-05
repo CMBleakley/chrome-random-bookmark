@@ -1,0 +1,44 @@
+{
+    "name": "random bookmark",
+    "version": "4",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "tabs",
+        "bookmarks"
+    ],
+    "browser_action": {
+        "default_title": "random bookmark",
+        "default_icon": {
+            "19": "icon19.png",
+            "38": "icon38.png"
+        }
+    },
+    "commands": {
+        "random-bookmark-new-tab": {
+            "suggested_key": {
+                "default": "Ctrl+R",
+                "mac": "Ctrl+R",
+                "linux": "Ctrl+R"
+            },
+            "description": "random bookmark new tab"
+        },
+        "random-bookmark-same-tab": {
+            "suggested_key": {
+                "default": "Ctrl+B",
+                "mac": "Ctrl+B",
+                "linux": "Ctrl+B"
+            },
+            "description": "random bookmark same tab"
+        }
+    }
+}
