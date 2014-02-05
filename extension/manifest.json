@@ -1,6 +1,6 @@
 {
     "name": "random bookmark",
-    "version": "4",
+    "version": "1.0",
     "manifest_version": 2,
     "background": {
         "scripts": [
