@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
   chrome.browserAction.onClicked.addListener( function(tab){
-    loadRandomBookmark();
+    loadRandomBookmarkNewTab();
   });
 
   chrome.commands.onCommand.addListener(function (command) {
